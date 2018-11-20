@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Topsul Viagens</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="conteudo">
+			<div class="logo">
+				<img src="logo editavel 1.png" alt="logo" class="img" width="180" height="90"></div>
+			<nav>
+				<div class="conteudo">
+					<ul>
+						<li class="hov_selected">INICIO</li>
+						<li class="hov">EMPRESA</li>
+						<li class="hov">FROTA</li>
+						<li class="hov">CONTATO</li>
+						<li class="hov">LOCALIZAÇÃO</li>
+						<li class="hov"><a class="hov" href="software.html">SOFTWARE</a></li>
+					</ul>
+				</div>
+			</nav>	
+		</div>
+	</header>
+
+	<div class="banner">
+		<div>
+			
+			<h1 class="titulo_banner">BEM VINDO!</h1>
+			<p class="paragrafo conteudo2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae enim vulputate, blandit nisi quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eveniet quaerat nemo consequuntur facilis voluptatibus ut, suscipit sint impedit exercitationem quas, recusandae maxime, doloremque. Nisi amet, nihil animi deserunt non.</p>
+		</div>	
+	</div>
+
+	<div class="conteudo3">
+		<div class="conteudo_fundo">
+			<h1 class="txt_servicos">NOSSOS SERVIÇOS</h1>
+			<div class="colunas">
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">FRETAMENTO</h3>
+					<div class="banner_servico"></div>
+				</div>
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">TURISMO</h3>
+				</div>
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">INGRESSOS</h3>
+				</div>
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">RESERVAS DE HOTEIS</h3>
+				</div>
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">PACOTES</h3>
+				</div>
+				<div class="servico">
+					<div class="bola"></div>
+					<h3 class="texto_servicos">SOLICITE O SEU ORÇAMENTO</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js">
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
